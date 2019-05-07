@@ -15,6 +15,7 @@ This program is interesting because
 For my project, you will need to install and import a few items.
 
 1: You'll need Python3 installed to run this project.
+
 2: You'll need to import Pandas to run this project. This can be done by running this code:
 
     import pandas as pd
