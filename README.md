@@ -1,27 +1,27 @@
-# ProPublica
+# Google Play App Figures
 
 ## Description
 
-This project for INST 326 uses the [ProPublica Congress API] to get House of
-Representatives members for a given state, and then retrieves the bills that
-they have introduced. The *propublica* module contains classes for interacting
-with the ProPublica API and for modeling states, representatives, and bills.
+This project for INST 326 uses the "Google Play Store Apps" dataset from Kaggle. 
+The program sorts through the data to find a few interesting items. First, the program
+finds the apps with 1 billion or more downloads. Next, the program finds the
+top app categories by total installs and displays this on a graph. Additionally, the program
+finds the top app categories by total review count and displays this on a graph.
 
-The supplied program *maryland-bills.py* uses the *propublica* module to fetch
-all the representatives for the state of Maryland, and prints out the bills that
-they have introduced. The idea is that it could be used to get a sense of what
-activities your representative is up to. It also highlights which members have
-not been active at all.
+This program is interesting because
 
 ## Install
 
-You will need Python3 to use this project. It depends on the *requests* and
-*pytest* modules which can be installed with:
+For my project, you will need to install and import a few items.
 
-    pip3 install -r requirements.txt
+1: You'll need Python3 installed to run this project.
+2: You'll need to import Pandas to run this project. This can be done by running this code:
 
-You will also need to get a ProPublica API [key] and store it in a file in this
-directory called *key.txt*.
+    import pandas as pd
+
+3: You'll need to import Matplotlib to run this project. This can be done by running this code:
+
+    import matplotlib.pyplot as plt
 
 ## Run
 
