@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-app_data = pd.read_csv('googleplaystore.csv')
+app_data = pd.read_csv('googleplaystore_326project.csv')
 app_data.dropna()
 
 """
